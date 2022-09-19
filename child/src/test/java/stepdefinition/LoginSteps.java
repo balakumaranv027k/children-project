@@ -28,8 +28,8 @@ public void user_navigates_to_app() {
 }
 @When("user entres valid user name and passsword")
 public void user_entres_valid_user_name_and_passsword() {
-	driver.findElement(By.id("email_address_login")).sendKeys("balakumaran795@gmail.com");
-	driver.findElement(By.id("password_login")).sendKeys("02071996@bK");
+	driver.findElement(By.id("email_address_login")).sendKeys("");
+	driver.findElement(By.id("password_login")).sendKeys("");
    
 }
 @When("user clicks login button")
